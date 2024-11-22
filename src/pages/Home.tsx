@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 const Home = () => {
@@ -9,3 +10,20 @@ const Home = () => {
 }
 
 export default Home
+=======
+import styled from "styled-components";
+
+function Home() {
+  
+  return (
+    <HomeStyle>
+    </HomeStyle>
+  );
+}
+
+const HomeStyle = styled.div`
+  
+`;
+
+export default Home;
+>>>>>>> 067a098 (Final)

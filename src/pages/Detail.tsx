@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
@@ -15,3 +16,14 @@ const Detail = () => {
 }
 
 export default Detail
+=======
+function Detail() {
+  return (
+    <>
+      <div>디테일</div>
+    </>
+  );
+}
+
+export default Detail;
+>>>>>>> 067a098 (Final)

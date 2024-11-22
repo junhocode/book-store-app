@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ThemeName } from "../../style/theme";
 
 interface Props {
@@ -17,3 +18,15 @@ function ThemeSwitcher ({ themeName, setThemeName } :
 };
 
 export default ThemeSwitcher;
+=======
+import { useContext } from "react";
+import { ThemeContext } from "../../context/themeContext";
+
+function ThemeSwitcher() {
+  const { themeName, toggleTheme } = useContext(ThemeContext);
+
+  return <button onClick={toggleTheme}>{themeName}</button>;
+}
+
+export default ThemeSwitcher;
+>>>>>>> 067a098 (Final)

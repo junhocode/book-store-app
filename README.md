@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+# React(TypeScript) 기반의 동적 UI 개발: 북스토어 프로젝트
+
+---
+
+>>>>>>> 067a098 (Final)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

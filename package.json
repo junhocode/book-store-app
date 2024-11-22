@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "book-store-app",
+=======
+  "name": "book-store",
+>>>>>>> 067a098 (Final)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+<<<<<<< HEAD
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
@@ -21,6 +26,33 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+=======
+    "@types/node": "^16.18.66",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.6.5",
+    "dayjs": "^1.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-icons": "^4.12.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "sanitize.css": "^13.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.4.7"
+  },
+  "scripts": {
+    "start": "PORT=3002 craco start",
+    "build": "craco build",
+    "test": "craco test",
+>>>>>>> 067a098 (Final)
     "eject": "react-scripts eject",
     "typecheck": "tsc --noEmit --skipLibCheck"
   },
@@ -43,6 +75,19 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+=======
+    "@craco/craco": "^7.1.0",
+    "@faker-js/faker": "^8.3.1",
+    "@types/react-slick": "^0.23.13",
+    "craco-alias": "^3.0.1",
+    "msw": "^2.1.2"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+>>>>>>> 067a098 (Final)
   }
 }
